@@ -84,14 +84,28 @@ header {
 
 /* ----- Phase 1 - Moderate Screen ----- */
 
-/* Your code here */
+@media screen and (min-width: 820px ) and (max-width: 1219px) {
+
+}
 
 /* ----- Phase 1 - Wide Screen ----- */
 
-/* Your code here */
+@media screen and (min-width: 1220px) {
+
+}
 
 /* ===== PRINTING ===== */
 
-/* Phase 2 */
 
-/* Your code here */
+
+@media print {
+    .story-box {
+        background-color: #E8EFF0;
+        border-radius:none;
+        filter: none;
+    }
+
+    header, .sidebar, .image-box {
+        display: none;
+    }
+}
